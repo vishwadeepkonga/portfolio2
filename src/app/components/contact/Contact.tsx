@@ -34,11 +34,11 @@ const Contact = () => {
         </div>
         <div className=" w-1/2 flex flex-col gap-3 ">
         <label>Name</label>
-          <input type="text" name="name" className="w-full" />
+          <input type="text" name="message" className="w-full border-2 border-black-100" />
             <label>Email</label>
-          <input type="text" name="name" className="w-full" />
+          <input type="text" name="message" className="w-full border-2 border-black-100" />
           <label>Message</label>
-          <input type="text" name="name" className="w-full h-32" />
+          <input type="text" name="message" className="w-full h-32 border-2 border-black-100 " />
           <button className="bg-blue-500 text-white rounded-lg">submit</button>
         </div>
       </div>
