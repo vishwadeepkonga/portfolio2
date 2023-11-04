@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="border-2 border-orange-500 mt-16 rounded-lg ">
     <div className="p-5">
-      <h1 className="text-3xl font-bold text-center ">Let's Connect</h1>
+      <h1 className="text-3xl font-bold text-center ">Lets Connect</h1>
       <div className="flex justify-between  mt-16">
         <div className="flex flex-col  gap-10  w-1/2">
           <div className="flex gap-2">

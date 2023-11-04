@@ -34,7 +34,7 @@ const Project = () => {
       </div>
       <div className="flex flex-col space-y-28">
         {projects.map((item, index) => (
-          <div className="flex flex-col items-center animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12  ">
+          <div key={index} className="flex flex-col items-center animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12  ">
 <div className={item.name === 'Quiz App' ? "w-1/2  flex items-center" : "w-1/2 flex items-center"}>
               {" "}
               <Image

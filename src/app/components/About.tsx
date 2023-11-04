@@ -62,7 +62,7 @@ function About() {
               <span className="font-bold  text-teal-500">
                 never stop growing
               </span>{" "}
-              and that's what I strive to do, I have a passion for technology
+              and thats what I strive to do, I have a passion for technology
               and a desire to always push the limits of what is possible. I am
               excited to see where my career takes me and am always open to new
               opportunities. 🙂
@@ -74,7 +74,7 @@ function About() {
           <div className="text-2xl font-bold py-5">My Skills</div>
           <div className="  flex flex-wrap flex-row ">
             {skills.map((item, index) => (
-              <div className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">
+              <div key={index} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">
                 {item.skill}
               </div>
             ))}
